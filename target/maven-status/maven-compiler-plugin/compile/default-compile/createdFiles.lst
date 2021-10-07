@@ -1,0 +1,8 @@
+com\nagarro\employeemanagement\client\RestClient.class
+com\nagarro\employeemanagement\config\AppContext.class
+com\nagarro\employeemanagement\entity\Employee.class
+com\nagarro\employeemanagement\config\WebMvcConfig.class
+com\nagarro\employeemanagement\controller\EmployeeController.class
+com\nagarro\employeemanagement\entity\User.class
+com\nagarro\employeemanagement\config\AppInitializer.class
+com\nagarro\employeemanagement\controller\LoginController.class

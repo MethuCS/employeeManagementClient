@@ -1,0 +1,85 @@
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+.header{
+    background-color:#1DE9B6;
+}
+
+.footer{
+    background-color:#1DE9B6;
+    align-items: right;
+}
+
+.footerContent, h2.card-title{
+    color: white;
+    text-align: center;
+
+}
+
+
+div.card-header, div.card-body, div.card-footer {
+    border: 1px solid black;
+}
+
+#show th, #show td{
+    padding:10px;
+}
+
+#btna td input{
+    width: 100%;
+}
+
+table {
+    table-layout: fixed;
+    width: 180px;  
+    margin-top: 40px;
+    margin-right: 10px;
+    
+}
+
+form{
+    margin-left: 40px;
+    margin-top: 40px;
+  height: 500px;
+}
+
+img{
+  object-position:50% 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+td{
+  vertical-align: middle;
+}
+
+
+.tablehead{
+  background-color: #86af49;
+
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: #ddeedd;
+}
+
+
+tr:not(:first-child){
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count : 1;
+  animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
